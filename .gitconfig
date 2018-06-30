@@ -1,3 +1,5 @@
+#Reviewed 6/30/2018
+
 [alias]
 	# View abbreviated SHA, description, history graph, time and author
 	l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
@@ -74,12 +76,10 @@
 	log = true
 
 # URL shorthands
-[url "git@github.com:"]
+[url "https://github.com/"]
 	insteadOf = "gh:"
 	pushInsteadOf = "github:"
 	pushInsteadOf = "git://github.com/"
-[url "git://github.com/"]
-	insteadOf = "github:"
 [url "git@gist.github.com:"]
 	insteadOf = "gst:"
 	pushInsteadOf = "gist:"
@@ -89,3 +89,6 @@
 
 [push]
 	default = matching
+[user]
+	name = Tim Lancaster
+	email = tlancaster@indigobio.com

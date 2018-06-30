@@ -1,3 +1,5 @@
+#Reviewed 6/30/18
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
@@ -155,5 +157,5 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # Reload the shell (i.e. invoke as a login shell)
 #alias reload="exec $SHELL -l"
 
-# Faster npm for europeans
-command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu"
+# Docker local orchestration
+alias dc='docker-compose -f ~/Projects/docker/local_orchestration/docker-compose.yml'

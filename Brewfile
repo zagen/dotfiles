@@ -1,3 +1,5 @@
+#Reviewed 6/30/2018
+
 # Make sure we’re using the latest Homebrew
 update
 
@@ -34,6 +36,9 @@ install homebrew/dupes/grep
 #install ack
 #install exiv2
 install git
+install rbenv
+install cloc
+install markdown
 #install imagemagick
 #install lynx
 install node

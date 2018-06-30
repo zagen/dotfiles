@@ -5,23 +5,12 @@
 # the `push` command which copies the github compare URL to my clipboard is heaven
 #sudo bash < <( curl https://raw.github.com/jamiew/git-friendly/master/install.sh)
 
-# https://rvm.io
-# rvm for the rubiess
-#Paul does: curl -L https://get.rvm.io | bash -s stable --ruby
-#I do this one as it adds dependencies as well
-\curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable
-
-# https://github.com/isaacs/nave
-# needs npm, obviously.
-# TODO: I think i'd rather curl down the nave.sh, symlink it into /bin and use that for initial node install.
-#npm install -g nave
-
+# node version manager?
 
 # homebrew!
 # you need the code CLI tools YOU FOOL.
 #ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
-
-
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # https://github.com/rupa/z
 # z, oh how i love you
@@ -55,16 +44,3 @@ chmod +x ~/z/z.sh
 
 # for the c alias (syntax highlighted cat)
 #sudo easy_install Pygments
-
-
-# chrome canary as default
-# on a mac you can set chrome canary as your default inside of Safari preferences :)
-
-# My extra stuff (do I need sudo here?)
-# Check gems are up to date without installing documentation
-sudo gem update --system --no-document
-# Install jekyll
-sudo gem install jekyll
-
-# Set symlink for Sublime Text 2
-#ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
