@@ -22,6 +22,9 @@ chmod +x ~/z/z.sh
 # z binary is already referenced from .bash_profile
 
 
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # https://github.com/dronir/SpotifyControl
 # Spotify Controll Script
 #cd ~/code
