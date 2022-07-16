@@ -165,7 +165,7 @@ defaults write NSGlobalDomain KeyRepeat -int 0
 #defaults write com.apple.screensaver askForPassword -int 1
 #defaults write com.apple.screensaver askForPasswordDelay -int 0
 
-/i
+#/i
 # Save screenshots to the desktop
 defaults write com.apple.screencapture location -string "$HOME/Desktop/Screenshots"
 
